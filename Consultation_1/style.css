@@ -1,0 +1,47 @@
+/*Сброс отступов (Reset margins and paddings)
+  Пояснение:
+  * — универсальный селектор, применяет стили ко всем элементам на странице.*/
+* {
+  margin: 0; /* — убирает внешние отступы у всех элементов. */
+  padding: 0; /* — убирает внутренние отступы.*/
+}
+p {
+  color: green;
+}
+p {
+  color: rgba(230, 66, 11, 0.754);
+}
+.text-color {
+  color: blue;
+}
+.text-color1 {
+  color: aquamarine;
+}
+.text-color2 {
+  color: #c1121f;
+}
+.text-color3 {
+  color: #ff006e;
+}
+p.text-color {
+  color: rgba(37, 204, 247, 1);
+}
+h1.text-color {
+  background-color: antiquewhite;
+}
+.surikat {
+  width: 100%;
+}
+.local-surikat {
+  width: 1000px;
+}
+body {
+  width: 100%;
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/eed8b898-a782-4313-a5e8-e4c2ec1102fc/daz08sy-38437d0e-c570-4005-a803-5fec68c864de.jpg/v1/fill/w_1024,h_576,q_75,strp/glassthrough_sky_by_mineehddlss_daz08sy-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvZWVkOGI4OTgtYTc4Mi00MzEzLWE1ZTgtZTRjMmVjMTEwMmZjXC9kYXowOHN5LTM4NDM3ZDBlLWM1NzAtNDAwNS1hODAzLTVmZWM2OGM4NjRkZS5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.FjHhFQy4zGtgbpxhXovJJb6ZZCXf_YMZ0EMUpMLZEW8");
+  background-position: center; /* центрирование изображения*/
+  background-size: cover; /*масштабирование изображения */
+  background-size: contain; /* Растягивает изображение так, чтобы оно целиком влезло в элемент, но могут остаться пустые полосы (например, сверху и снизу).*/
+  background-repeat: no-repeat; /* запрет на повторение*/
+  background-size: auto; /*Первая auto — ширина. Вторая auto — высота. Оба значения означают: использовать оригинальные  размеры картинки.*/
+  height: 100vh; /* чтобы заняло весь экран */
+}

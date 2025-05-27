@@ -1,0 +1,58 @@
+body {
+   background-image: url("./bild.png");  
+   width: 100%;
+   background-position:center;                                   background-size: cover;                                         /* background-color:#cce6f4;  */
+}
+
+h1 {
+  text-align: center;
+  color: #212529;
+  font-size: 30px;
+  font-style: italic;
+
+}
+p {
+  text-align: left;
+  color: #1a659e;
+  font-style: italic;
+  font-size: 20px;
+}
+h3,
+h4 {
+  color: #1b1b1b;
+  font-style: oblique;
+  font-size: 21px;
+}
+.bold-underline {
+  font-weight: bold;
+  text-decoration: underline;
+}
+ul {
+  font-size: 18px;
+  /* color: red; */
+}
+ul, ol li::marker { /* CSS-селектор, который позволяет управлять маркером (точкой, числом, символом) у элементов списка <ul> и <ol>.*/
+  color: black;
+}
+ol {
+  font-size: 18px;
+  color: blue;
+}
+ul li a{
+  color: green;
+}
+
+h5 {
+  font-weight: bold;
+  text-decoration: underline;
+  font-style: normal;
+  font-size: 20px;
+  color: #9a031e;
+}
+.center-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
