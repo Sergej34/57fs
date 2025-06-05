@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.cars div {
+  width: 360px;
+  height: 360px;
+  background-color: #f8f8f8;
+  /* border: 1px; линия во внутрь */
+  /* outline: 1px; линия во вне */
+  margin: 20px;
+  outline: 1px solid black;
+  background-image: url("https://subaru.ru/uploads/blocks/resize__320_b693995b9c64825089ebe6f005f6193065c22d2c34ffd.png");
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.5s;
+}
+
+.cars {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+}
+
+.cars div:hover {
+  background-size: 150%;
+  background-position: right 150% top 50%;
+  transition: 0.5s;
+}
+
+.cars div .descr {
+  position: relative;
+  display: inline-block;
+  color: blue;
+  text-decoration: none;
+  border: 2px solid blue;
+  padding: 10px;
+  border-radius: 4px;
+  opacity: 0;
+  top: 270px;
+  left: 20px;
+  transition: .5s; /* плавность перехода */
+}
+
+.cars div h2 {
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+.cars div:hover .descr{ /* при навидение на div descr появляется кнопка */ 
+  opacity: 1;
+}
+
+.cars div .descr:hover{ /* навожу на нашу кнопку .cars div .descr */
+  background-color: blue;
+  color: white;
+}
