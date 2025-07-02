@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+header {
+  height: 100px;
+  background-image: url(imagebanner.jpeg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 15px;
+}
+
+nav {
+  display: flex;
+  align-items: end;
+  gap: 40px;
+}
+
+nav span {
+  color: white;
+  opacity: 0.5;
+}
+
+nav > div > img {
+  opacity: 0.8;
+  transition: opacity 0.2 ease-in-out;
+}
+
+.logo {
+  height: 33px;
+}
+
+nav > div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+input {
+  cursor: pointer; /* cursor в режиме ручки pointer */
+  opacity: 0.5; /* прозрачность */
+  transition: opacity 0.2s ease-in-out; /* плавный переход между элементами */
+}
+
+input:hover {
+  /* при навидение на элемент */
+  opacity: 1;
+}
+
+div:hover .oscar,
+div:hover .oscar-desc,
+div:hover .play,
+div:hover .play-desc {
+  opacity: 1;
+}
+
+.movie {
+  
+  padding: 50px;
+  
+
+  /* width: fit-content;
+  height: fit-content; */
+  /* display: flex;
+  justify-content: center; */
+}
+
+.movie1 {
+  height: 900px;
+  width: 600px;
+ 
+}
+
+.movie2 {
+}

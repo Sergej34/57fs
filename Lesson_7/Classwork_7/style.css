@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  font-family: Geneva, sans-serif;
+}
+
+body {
+  margin: 0px;
+  /* делаем липкий footer к низу */
+  display: flex;
+  flex-direction: column;
+  /* vh - viewport heigth, высота видимой области браузера */
+  min-height: 100vh;
+}
+
+header {
+  height: 100px;
+  background-color: orange;
+  color: white;
+  position: sticky;
+  top: 0px;
+}
+
+footer {
+  height: 50px;
+  background-color: darkgray;
+  color: white;
+}
+
+main {
+  padding: 10px 50px;
+  align-items: start;
+  /* растягиваем main по размеру body */
+  flex: 1;
+}
+
+footer,
+header {
+  padding: 10px 50px;
+  display: flex;
+  align-items: center;
+}
+
+header {
+  justify-content: space-between;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 430px) {
+  header {
+    background-color: orangered;
+  }
+}

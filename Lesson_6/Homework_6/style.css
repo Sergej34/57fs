@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman';
+    margin: 0;
+}
+
+
+
+header {
+    width: 100%;
+    background-color: #bb2424;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top:0px;   
+}
+
+.gallery {
+    margin: 20px;
+    display: grid;
+    gap: 20px;
+    grid-auto-rows: 470px;
+    grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
+}
+
+.character-card {
+    background-color: rgb(7, 219, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.car-bmw {
+    
+    width: 100%;
+    background-image: url(https://images.wallpaperscraft.ru/image/single/bmw_avtomobil_belyj_218881_1280x720.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding: 20px;
+    font-size: 25px;
+    color: rgb(160, 23, 15);
+    
+}

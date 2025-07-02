@@ -1,0 +1,39 @@
+* {
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+header {
+  width: 100%;
+  background-color: rgb(229, 94, 26);
+  color: white;
+  padding: 20px 50px;
+  /* position: fixed; */
+  /* приклеиваем header через sticky */
+  position: sticky;
+  /* header приклеиться в самом верху страницы */
+  top: 0px;
+}
+
+main {
+  padding: 15px 50px;
+}
+
+main span {
+  position: sticky;
+  top: 200px;
+  background-color: rgb(229, 94, 26);
+  color: white;
+  font-weight: bold;
+}
