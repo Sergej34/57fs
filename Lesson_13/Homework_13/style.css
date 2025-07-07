@@ -1,0 +1,74 @@
+/* button {
+    background-color: #00a7e1;
+    color: white;
+    border: none;
+    padding: 3px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+} */
+ body {
+  background: #f3f4f6;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 32px;
+  color: #2c3e50;
+}
+
+form {
+  max-width: 400px;
+  margin: 32px auto;
+  background: #fff;
+  border-radius: 16px;
+  padding: 24px 32px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input, button {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  background: #4287f5;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #0057d9;
+}
+
+ul#book-name {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto 32px auto;
+}
+
+ul#book-name li {
+  background: #fff;
+  margin: 12px 0;
+  padding: 16px 24px;
+  border-radius: 12px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.09);
+  font-size: 17px;
+  position: relative;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+ul#book-name li:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 4px 20px rgba(66, 135, 245, 0.15);
+}

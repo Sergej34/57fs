@@ -46,11 +46,25 @@ console.log(replaceAnkinSkywalker(starWarsHeroes));
 
 // Тернарный оператор
 // условие ? значение_если_истина : значение_если_ложь
-const replaceAnakin = (heroes) =>
-  heroes.map((hero) =>
+// const replaceAnakin = (heroes) =>
+const replaceAnakin = starWarsHeroes.map((hero) =>
     hero.name === "Anakin Skywalker"
       ? { name: "Darth Vader", isJedi: false, age: 50 }
       : hero
   );
-console.log(replaceAnakin(starWarsHeroes));
+console.log(replaceAnakin);
 
+// starWarsHeroes.map(hero =>
+    hero.name === "Anakin Skywalker"
+      ? { ...hero, name: "Darth Vader" }
+      : hero
+  ;
+
+const replaced = starWarsHeroes.map(hero =>
+    hero.name === "Luke Skywalker"
+      ? { ...hero, name: "Darth Vader", isJedi: false, age: 50 }
+      : hero
+  );
+
+  console.log(replaced);
+  
